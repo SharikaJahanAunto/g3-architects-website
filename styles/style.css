@@ -1,0 +1,10 @@
+/* font style */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@600&family=Work+Sans&display=swap');
+
+/* common utilities */
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
