@@ -182,13 +182,16 @@ main {
 }
 
 .btn-secondary {
+    position: relative;
+    bottom: 90px;
+    right: 30px;
     width: 250px;
     height: 150px;
     background-color: #FF900E;
     border-radius: 8px;
     color: #FFFFFF;
     border: 0;
-    margin-top: -66px;
+    /* margin-top: -66px; */
 }
 
 .btn-text-style {
@@ -285,20 +288,80 @@ footer {
 }
 
 @media screen and (max-width: 576px) {
-    *{
-        text-align: center;
-    }
     .header {
         background: none;
-        width: 100%;
-        text-align: center;
+        height: 745px;
+        margin-left: -90px;
+
+    }
+
+    nav {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
     }
 
     nav ul {
         flex-direction: column;
-        gap: 20px;
+        gap: 6px;
         align-items: flex-start;
         padding-left: 20px;
+    }
+
+    nav li {
+        list-style: none;
+        margin-left: 0;
+    }
+
+    .group-section {
+        /* text-align: center; */
+    }
+
+    .group-title {
+        margin-top: 47px;
+        margin-bottom: 15px;
+        font-weight: 700;
+        font-size: 25px;
+        color: #131313;
+        text-align: left;
+        width: 134px;
+    }
+
+    .group-description {
+        font-weight: 400;
+        font-size: 16px;
+        text-align: left;
+        color: #727272;
+        margin-bottom: 32px;
+        width: 330px;
+    }
+
+    .feature-title {
+        margin-top: 0px;
+    }
+
+    .feature-headline {
+        margin-top: -85px;
+    }
+
+    .box-paragraph {
+        width: 300px;
+    }
+
+    .right-feature {
+        margin-bottom: 0px;
+    }
+
+    .architect-img {
+        height: 500px;
+        border-radius: 8px;
+        width: 360px;
+    }
+
+    .btn-secondary {
+        bottom: -100px;
+        right: 290px;
     }
 
     .feature-section,
@@ -311,22 +374,18 @@ footer {
 
     .img-banner {
         height: 200px;
-        width: 100%;
+        width: 170%;
         margin-bottom: 40px;
     }
-    .feature-image {
+
+    .feature-images {
+        display: grid;
         grid-template-columns: repeat(1, 1fr);
-        margin-bottom: 10px;
+        grid-row-gap: 24px;
+        justify-items: center;
     }
-    
-    nav li {
-        list-style: none;
-        margin-left: 0;
-    
-    }
+
     .button {
-        /* width: 180px;
-        height: 64px; */
         color: #FFFFFF;
         border: 0;
         font-weight: 600;
@@ -334,5 +393,30 @@ footer {
         background-color: #FF900E;
         border-radius: 5px;
     }
-}
 
+    .fact {
+        margin-top: -210px;
+        margin-left: 30px;
+    }
+    .feature-description {
+        margin-bottom: -30px;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .container {
+        align-items: center;
+        gap: 20px;
+    }
+    input{
+        width: 300px;
+    }
+    textarea{
+        width: 300px;
+    }
+
+    footer{
+        width: 100%;
+    }
+
+}
