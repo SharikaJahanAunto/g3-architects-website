@@ -362,11 +362,12 @@ footer {
         height: 500px;
         border-radius: 8px;
         width: 360px;
+        margin-left: -10px;
     }
 
     .btn-secondary {
         bottom: -100px;
-        right: 290px;
+        right: 320px;
     }
 
     .feature-section,
@@ -397,6 +398,7 @@ footer {
         font-size: 20px;
         background-color: #FF900E;
         border-radius: 5px;
+        margin-left: 50px;
     }
 
     .fact {
